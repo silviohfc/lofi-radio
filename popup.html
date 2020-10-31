@@ -17,13 +17,23 @@
     <div class="container">
 
         <div class="radio-selection">
-            Select Server
+            <b>Select Server:</b>
+
+            <select id="server">
+                <option id="placeholder" selected></option>
+            </select>
         </div>
 
         <div class="divider"></div>
         
         <div class="controls">
-            Controls
+            <div id="player"></div>
+
+            <div class="player-control">
+                <i class="fa fa-play"></i>
+
+                <input type="range" id="volume" min="0" max="100" value="70">
+            </div>
         </div>
 
     </div>
@@ -42,6 +52,6 @@
         </div>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script type="module" src="scripts.js"></script>
 </body>
 </html>
