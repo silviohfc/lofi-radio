@@ -84,6 +84,7 @@ footer .links a:hover {
 
 .radio-selection select {
     display: none;
+    outline: none;
 }
 
 /* -------------------------------- CONTROLS -------------------------------- */
@@ -97,13 +98,13 @@ footer .links a:hover {
     background-color: rgb(245, 245, 245);
 }
 
-#player {
+.loader {
     margin: 0 auto;
+    display: none;
 }
 
-#player img {
+.loader img {
     width: 32px;
-    display: none;
 }
 
 .controls .player-control {
