@@ -4,12 +4,18 @@
     "version": "1.0",
     "description": "Lo-Fi radio extension!",
     "icons": {
-        "16": "./assets/icon16x16.png",
-        "32": "./assets/icon32x32.png",
-        "128": "./assets/icon128x128.png"
+        "16": "./public/assets/icon16x16.png",
+        "32": "./public/assets/icon32x32.png",
+        "128": "./public/assets/icon128x128.png"
     },
     "browser_action": {
-        "default_icon": "./assets/icon16x16.png",
-        "default_popup": "popup.html"
-    }
+        "default_icon": "./public/assets/icon16x16.png",
+        "default_popup": "./public/popup.html"
+    },
+    "background": {
+        "scripts": ["app/background.js"]
+    },
+    "permissions": [
+        "https://*/"
+    ]
 }
