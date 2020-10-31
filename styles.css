@@ -85,18 +85,27 @@ footer .links a:hover {
 /* -------------------------------- CONTROLS -------------------------------- */
 .controls {
     width: 100%;
-    height: 75px;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
 
     background-color: rgb(245, 245, 245);
 }
 
+#player {
+    margin: 0 auto;
+}
+
+#player img {
+    width: 32px;
+    display: none;
+}
+
 .controls .player-control {
     width: 100%;
 
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-evenly;
 }
