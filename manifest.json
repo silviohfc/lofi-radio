@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Lo-Fi Radio",
     "version": "1.0",
-    "description": "Lo-Fi radio extension!",
+    "description": "Simples Chill Radio to provide you a good ambient sound. No more YouTube tabs or Desktop Apps!",
     "icons": {
         "16": "./public/assets/icon16x16.png",
         "32": "./public/assets/icon32x32.png",

@@ -5,7 +5,7 @@ const Radio = {
     volume: 0.7,
 
     getStationsJSON(callback) {
-        const url = "https://api.jsonbin.io/b/5f9cfc939291173cbca625fd"
+        const url = "https://api.jsonbin.io/b/5f9cfc939291173cbca625fd/1"
         const key = "$2b$10$vL2iVgaGSD1nDzeXCXvNwuEet42VwhI66XDDHmDg/Ye.KEn0Bv2xO"
 
         const xhr = new XMLHttpRequest()
