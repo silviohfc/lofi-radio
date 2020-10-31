@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Lo-Fi Radio",
+    "version": "1.0",
+    "description": "Simples Chill Radio to provide you a good ambient sound. No more YouTube tabs or Desktop Apps!",
+    "icons": {
+        "16": "./public/assets/icon16x16.png",
+        "32": "./public/assets/icon32x32.png",
+        "128": "./public/assets/icon128x128.png"
+    },
+    "browser_action": {
+        "default_icon": "./public/assets/icon16x16.png",
+        "default_popup": "./public/popup.html"
+    },
+    "background": {
+        "scripts": ["app/background.js"]
+    },
+    "permissions": [
+        "https://*/"
+    ]
+}
